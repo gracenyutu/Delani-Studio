@@ -18,6 +18,9 @@
 }
 .contact {
   background-image: url('../images/backgrounds/c_image.jpg');
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
 }
 .gallery {
   margin: 5px;
