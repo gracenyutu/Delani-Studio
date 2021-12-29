@@ -29,3 +29,10 @@
   width: 250px;
   height: 250px;
 }
+#des,#dev,#product{
+  font-family: Secular One;
+  text-align: center;
+}
+#d-selector,#dev-selector,#p-selector{
+  margin: 5px;
+}

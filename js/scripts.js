@@ -1,0 +1,11 @@
+$(document).ready(function(){
+  $("img.image-selector").click(function(){
+    $("#des").toggle();
+  });
+  $("img.image-selector").click(function(){
+    $("#dev").toggle();
+  });
+  $("img.image-selector").click(function(){
+    $("#product").toggle();
+  });
+});
