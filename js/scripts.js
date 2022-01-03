@@ -1,11 +1,5 @@
-$(document).ready(function(){
-  $("img.image-selector").click(function(){
-    $("#des").toggle();
-  });
-  $("img.image-selector").click(function(){
-    $("#dev").toggle();
-  });
-  $("img.image-selector").click(function(){
-    $("#product").toggle();
-  });
-});
+function doForm () {
+	var data = new FormData();
+	data.append("name", document.getElementById("name").value);
+	data.append("email", document.getElementById("email").value);
+}
