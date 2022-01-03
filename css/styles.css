@@ -1,5 +1,4 @@
 .body {
-  margin: 70px;
   padding: 50px;
 }
 .header {
@@ -35,4 +34,7 @@
 }
 #d-selector,#dev-selector,#p-selector{
   margin: 5px;
+}
+.div{
+  margin-top: 70px;
 }
